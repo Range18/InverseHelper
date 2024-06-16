@@ -1,0 +1,28 @@
+.modalWrap {
+  width: 360px;
+  height: calc(100% - 128px);
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.24);
+  background-color: transparent;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  z-index: 99999;
+  border-radius: 16px;
+
+  @media screen and (max-width: 390px) {
+    width: 340px;
+    left: 10px;
+    right: 10px;
+  }
+  @media screen and (max-width: 350px) {
+    width: 320px;
+    left: 10px;
+    right: 10px;
+  }
+  @media screen and (max-width: 330px) {
+    width: 300px;
+    left: 10px;
+    right: 10px;
+  }
+}
